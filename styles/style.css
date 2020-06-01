@@ -13,32 +13,52 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
-    height: 3rem;
+    height: 4rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.85rem;
 }
 
 .nav__left {
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
+    padding-left: 2rem;
 }
 
 .nav__right {
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    /* border: solid 1px black; */
 }
 
 .nav__link {
     color: #3f3f3f;
     text-decoration: none;
+    padding-right: 1rem;
 }
 
 .nav__link:hover {
     text-decoration: underline;
     text-decoration-color: #3f3f3f;
+}
+
+.nav__app-menu {
+    height: auto;
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.button--nav {
+    color: white;
+    background-color: #4584ef;
+    border-radius: 2px;
+    border-style: none;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+}
+
+.button--nav:hover {
+    box-shadow: 0 3px 2px -3px rgb(122, 122, 122);
 }
 
 
@@ -111,5 +131,5 @@ main {
 /* Search icon #9AA0A6 */
 /* Search button hover text #222222 */
 /* Sware icon header right #727272 */
-/* Sign in button #4584ef */
+
 /* Search bar border EFF0F2 */
