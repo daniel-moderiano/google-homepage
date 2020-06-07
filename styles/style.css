@@ -5,6 +5,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+:focus {
+    outline: none;
+}
+
 /* -----HEADER----- */
 
 /* NAV-BAR */
@@ -122,11 +126,11 @@ main {
     border-radius: 100px;
     border-color: #DFE1E5;
     border-width: 1px;
-    padding: 0.85rem 0.85rem 0.85rem 2.8rem;
+    padding: 0.6rem 0.85rem 0.6rem 2.8rem;
     box-sizing: border-box;
     margin: 0;
     font-size: 0.95rem;
-    line-height: 1rem;
+    line-height: 1.5rem;
     font-family: Arial, sans-serif;
 }
 
@@ -138,14 +142,12 @@ main {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
-
-
-
 .search-form__icon {
     color: #9AA0A6;
     position: absolute;
+    top: 0px;
     left: 0px;
-    padding-top: 1rem;
+    padding-top: 0.9rem;
     padding-left: 1rem;
 
 }
